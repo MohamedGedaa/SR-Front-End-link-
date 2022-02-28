@@ -1,0 +1,66 @@
+<section class="news-details my-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img [src]="newsDetails.urlToImage" class="img-fluid" [alt]="newsDetails.title">
+      </div>
+      <div class="col-md-6">
+        <h2 class="title">{{newsDetails.title}}</h2>
+        <div class="news-publish">
+          <p class="news-publish--date">{{newsDetails.published}}</p>
+          <div class="news-action">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-share-nodes"></i>
+          </div>
+        </div>
+        <p>{{newsDetails.description}}</p>
+      </div>
+      <div class="col-md-12">
+        <p class="mt-2">{{newsDetails.content}}</p>
+      </div>
+    </div>
+    <div class="similar-content my-3">
+      <div class="row">
+        <div class="col-md-12">
+          <h3>You might need to see also...</h3>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="assets/images/similar-iteam-1.png" class="card-img-top" alt="similar News">
+            <div class="card-body">
+              <h5 class="card-title">Dangote, 2 others to takeover Peugeot assembly plant worth $49m in Nigeria
+              </h5>
+              <div class="news-publish">
+                <p class="news-publish--date">Jan 11, 2022</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="assets/images/similar-iteam-2.png" class="card-img-top" alt="similar News">
+            <div class="card-body">
+              <h5 class="card-title">Libya to construct solar plant with Total Energies
+              </h5>
+              <div class="news-publish">
+                <p class="news-publish--date">Dec 30, 2021</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="assets/images/similar-iteam-3.png" class="card-img-top" alt="similar News">
+            <div class="card-body">
+              <h5 class="card-title">Unlocking Africa's Rare Earth Potential: Key for a Green Economy?
+              </h5>
+              <div class="news-publish">
+                <p class="news-publish--date">Jan 19, 2022</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

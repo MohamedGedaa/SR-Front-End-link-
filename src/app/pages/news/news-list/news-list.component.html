@@ -1,0 +1,27 @@
+<section class="news-list my-2">
+  <div class="news-content">
+    <div class="row">
+      <div class="col-md-4" *ngFor="let news of newNewslist">
+        <div class="card my-3">
+          <a [routerLink]='["/News/details", news.id]'>
+            <img [src]="news.urlToImage" class="card-img-top" [alt]="news.title">
+            <div class="card-body">
+              <h5 class="card-title">{{news.title}}</h5>
+              <div class="news-publish">
+                <p class="news-publish--date">{{news.published}}</p>
+                <div class="news-action">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-share-nodes"></i>
+                </div>
+              </div>
+
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-12 my-3">
+        <a class="load-more" type="button" (click)="showMore()" *ngIf="newNewslist.length !== newsList.length">Load More <span class="circle"><span class="icon-arrow-right"></span></span></a>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,16 @@
+.card {
+    border: none;
+    .card-img-top {
+        border-top-left-radius: 0 ;
+        border-top-right-radius: 0;
+    }
+    .card-body {
+        padding:0;
+        .card-title {
+            color: $main-color;
+            font-weight: 500;
+            font-size: 1.25rem;
+            margin-top: 0.625rem;
+        }
+    }
+}

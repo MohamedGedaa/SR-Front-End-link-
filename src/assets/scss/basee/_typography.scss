@@ -1,0 +1,19 @@
+html {
+    font-size: 16px;
+}
+body {
+   
+    font-family: $font-family-base ;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+p {
+    margin-bottom: 0;
+    line-height: 2;
+}
+a {
+    &:hover  {
+        cursor: pointer;
+        text-decoration: none;
+    }
+}

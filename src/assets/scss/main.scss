@@ -1,0 +1,22 @@
+@import 
+    'fonts/fonts';
+@import
+    'abstracts/variables',
+    'abstracts/functions',
+    'abstracts/mixins';
+@import
+    'basee/reset',
+    'basee/typography';
+@import
+    'layout/navbar',
+    'layout/breadcrump',
+    'layout/header',
+    'layout/footer';
+@import
+ 'components/cards';
+@import
+    'pages/home',
+    'pages/newslist',
+    'pages/newsdetails';
+@import 
+    'abstracts/responsive';

@@ -1,0 +1,172 @@
+.seprated-line {
+    position: relative;
+    &::before {
+        content: "";
+        width: 1px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 18.875rem;
+        background-color: white;
+        z-index: 888;
+    }
+}
+
+.opportunities {
+    background-image: url("~/assets/images/opportunities-bg.png");
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    color: $white-color;
+    & .overlay {
+        background-color: $overlay-bg;
+        padding: 4.327rem 0;
+        display: flex;
+        align-items: center;
+        .right-section {
+            width: 16%;
+        }
+        .left-section {
+            width: 84%;
+        }
+    }
+    & h2 {
+        position: absolute;
+        transform: rotate(270deg) translatey(-50%);
+        top: 40%;
+        text-transform: uppercase;
+        font-weight: 300;
+        letter-spacing: 1px;
+        font-size: 3.3125rem;
+    }
+    .opportunities-details-hoolder {
+        display: flex;
+        padding: 0 9.3125rem 0 4.625rem;
+        .opportunities-details {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-right: 7.75rem;
+            h3 {
+                margin-bottom: 1.5625rem;
+                font-size: 1.812rem;
+            }
+            ul {
+                li {
+                    margin: 0 0 0.625rem 0;
+                    font-size: 1.812rem;
+                    font-weight: 300;
+                }
+            }
+            .opportunities-content {
+                margin-right: 4.375rem;
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+        & .map {
+            background-image: url("~/assets/images/map.png");
+            background-position: center;
+            background-size: contain;
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+        }
+        .map-img {
+            display: flex;
+            justify-content: center;
+            & img {
+                height: 100%;
+            }
+        }
+    }
+}
+.load-more,
+.more,
+.owl-nav [class*="owl-"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-weight: lighter;
+    color: $main-color;
+    &:hover {
+        color: $main-color;
+    }
+    .circle {
+        width: 2.25rem;
+        height: 2.25rem;
+        border: 1px solid $main-color;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0 0.625rem;
+        & span {
+            font-size: 0.5rem;
+            color: $main-color;
+        }
+    }
+}
+.more {
+    justify-content: start;
+    color: $white-color;
+    font-size: 1.25rem;
+    margin: 3.75rem 1.125rem 0 0;
+    &:hover {
+        color: $white-color;
+    }
+    .circle {
+        border: 1px solid $white-color;
+        & span {
+            color: $white-color;
+        }
+    }
+}
+.latest-news {
+    position: relative;
+    display: flex;
+    .right-section {
+        width: 16%;
+        .latest-news-bg {
+            height: 100%;
+            background-image: url("~/assets/images/latest-news-bg.png");
+            background-size: cover;
+            background-position: center;
+            .overlay {
+                background-color: $latestnews-overlay-bg;
+                height: 100%;
+                h2 {
+                    color: $white-color;
+                    position: absolute;
+                    transform: rotate(270deg);
+                    top: 40%;
+                    text-transform: uppercase;
+                    font-weight: 300;
+                    letter-spacing: 1px;
+                    font-size: 3.3125rem;
+                }
+            }
+        }
+    }
+
+    .left-section {
+        width: 84%;
+
+        .load-more {
+            padding: 3.125rem 10.6875rem 2.3125rem 0;
+        }
+        .owl-content {
+            padding-left: 4.625rem;
+            padding-bottom: 1.25rem;
+            .owl-theme .owl-nav [class*="owl-"] {
+                background-color: transparent !important;
+                padding: 0;
+                &:hover {
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+}

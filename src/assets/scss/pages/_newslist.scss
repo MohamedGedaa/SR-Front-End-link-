@@ -1,0 +1,20 @@
+.news-content {
+    padding: 0 10.6875rem;
+}
+.news-publish {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .news-publish--date {
+        color: $golden-color;
+        margin-bottom: 0;
+        font-size: 1.125rem;
+    }
+    .news-action {
+        & i {
+            margin: 0 0.3125rem;
+            color: $golden-color;
+            font-size: 2rem;
+        }
+    }
+}

@@ -1,0 +1,796 @@
+// Extra Large devices (desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+    html {
+        font-size:$font-size-tablet;
+    }
+    .seprated-line::before {
+        left: 14.4rem;
+    }
+     // Responsive For nav bar
+    .navbar {
+        .navbar-brand {
+            padding: 1.125rem 1.5625rem 1.125rem 1.5625rem;
+        }
+        .overlay-menu.open {
+            .left-section {
+                .menu-details {
+                    padding: 1.375rem 1.5rem 1.9375rem 1.125rem;
+                    ul li a {
+                        font-size: 1.45rem;
+                    }
+                }
+                .menu-footer {
+                    padding: 1rem 1rem 1rem 1rem;
+                }
+            }
+        }
+    }
+     //  responsive For Banner Section
+     .hero {
+        .bannar-owl {
+            .left-section {
+                .owl-nav {
+                    width: 14.5rem;
+                    height: 14.5rem;
+                    left: -37%;
+                }
+                .number {
+                    left: 8%;
+                    top: 30%;
+                    h1{
+                        font-size: 6.372rem;
+                    }
+                }
+            }
+        }
+        .investment {
+            margin-left: 23%;
+            .recent-ivestment {
+                .h6 {
+                    font-size: 0.8rem;
+                }
+                p {
+                    font-size: 1rem;
+                }
+            }
+            .investment-sectors {
+                .investment-sectors--icons {
+                    grid-column-gap: 1rem;
+                    column-gap: 1rem;
+                }
+            }
+        }
+    }
+     // responsive for opportunities 
+     .opportunities{
+        .overlay {
+            .right-section {
+                h2 {
+                    font-size: 2.3125rem;
+                }
+            }
+            
+        }
+        .left-section {
+            .opportunities-details-hoolder {
+                padding: 0 4.3125rem 0 4.625rem;
+                .opportunities-details {
+                    h3 {
+                        font-size: 1.412rem;
+                    }
+                    ul {
+                        li {
+                            font-size: 1.412rem;
+                        }
+                    }
+                }
+                .map-img {
+                    width: 300px;
+                }
+            }
+               
+        }
+     }
+     // responsive for latest news section
+    .latest-news {
+        .right-section {
+            .latest-news-bg {
+                .overlay {
+                    & h2 {
+                        font-size: 2.3125rem;
+                    }
+                }
+            }
+        }
+        .left-section {
+            .load-more {
+                padding: 3.125rem 3.6875rem 2.3125rem 0;
+            }
+        }
+    }
+
+
+
+}
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+    html {
+        font-size: $font-size-tablet;
+    }
+    .seprated-line::before {
+        display: none;
+    }
+    // Responsive For nav bar
+    .navbar {
+        .navbar-brand {
+            padding: 1.125rem 0 1.125rem 0;
+        }
+        // .navbar-collapses {
+        //     .contrast-section,
+        //     .search-section {
+        //         display: none;
+        //     }
+        // }
+        .overlay-menu.open {
+            .right-section {
+                display: none;
+            }
+            .left-section {
+                width: 100%;
+                .menu-details {
+                    padding: 1.375rem 1.5rem 1.9375rem 1.125rem;
+                    ul li a {
+                        font-size: 2rem;
+                    }
+                }
+                .menu-footer {
+                    padding: 1rem 1rem 1rem 1rem;
+                }
+            }
+        }
+    }
+    //  responsive For Banner Section
+    .hero {
+        .bannar-owl {
+            .right-section {
+                display: none;
+            }
+            .left-section {
+                width: 100%;
+                padding: 1rem;
+                .owl-nav {
+                    width: auto;
+                    height: auto;
+                    border-radius: 0;
+                    left: 70%;
+                    top: 77%;
+                }
+                .number {
+                    display: none;
+                }
+            }
+        }
+        .investment {
+            margin-left: 0;
+            .recent-ivestment {
+                padding: 1rem;
+                p {
+                    font-size: 1.375rem;
+                }
+            }
+            .investment-sectors {
+                padding: 1rem;
+                .investment-sectors--icons {
+                    grid-column-gap: 0.5rem;
+                    column-gap: 0.5rem;
+                    .sectors--icons {
+                        span,
+                        h3 {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // responsive for opportunities 
+    .opportunities{
+        .overlay {
+            flex-direction: column;
+            .right-section {
+                width: 100%;
+                 & h2 {
+                    position: relative;
+                    font-size: 2.3125rem;
+                    margin-top: 0;
+                    transform: none;
+                    text-align: center;
+                    margin-top: 0;
+                 }
+            }
+            .left-section {
+                width: 100%;
+                .opportunities-details-hoolder {
+                    padding: 1.4rem 3.625rem;
+                    justify-content: space-between;
+                    // flex-direction: column-reverse;
+                    .map-img {
+                        img {
+                            height: 300px;
+                        }
+                    }
+                    .opportunities-details {
+                        margin-right: 0;
+                        .opportunities-content {
+                            margin-right: 3.375rem;
+                        }
+                        h3 {
+                            margin-bottom: 1.5625rem;
+                            font-size: 1.412rem;
+                        }
+                        ul {
+                            li{
+                                font-size: 1rem; 
+                            }
+                        }
+                       
+                    }
+                }
+            }        
+        }
+        
+      
+         
+    
+
+    } 
+    // responsive for latest news section
+    .latest-news {
+        .right-section {
+            .latest-news-bg {
+                .overlay {
+                    & h2 {
+                        transform: rotate(270deg) translateY(-39px);
+                        letter-spacing: 3px;
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+        .left-section {
+            .owl-content {
+                padding-left: 2rem;
+            }
+            .load-more {
+                padding: 3.125rem 3.6875rem 2.3125rem 0;
+            }
+        }
+    }
+    // Responsive For Footer
+    .footer {
+        .right-section {
+            display: none;
+        }
+        .left-section {
+            width: 100%;
+            padding: 0 1.25rem 0 1.25rem;
+            .social-icon {
+                margin:0;
+            }
+        }
+    }
+    
+
+}
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    html {
+        font-size: $font-size-tablet;
+    }
+    .seprated-line::before {
+        display: none;
+    }
+    // Responsive For nav bar
+    .navbar {
+        .navbar-brand {
+            padding: 1.125rem 0 1.125rem 0;
+        }
+        .navbar-collapses {
+            .contrast-section,
+            .search-section {
+                display: none;
+            }
+        }
+        .overlay-menu.open {
+            .right-section {
+                display: none;
+            }
+            .left-section {
+                width: 100%;
+                .menu-details {
+                    padding: 1.375rem 1.5rem 1.9375rem 1.125rem;
+                    ul li a {
+                        font-size: 2rem;
+                    }
+                }
+                .menu-footer {
+                    padding: 1rem 1rem 1rem 1rem;
+                }
+            }
+        }
+    }
+    //  responsive For Banner Section
+    .hero {
+        .bannar-owl {
+            .right-section {
+                display: none;
+            }
+            .left-section {
+                width: 100%;
+                padding: 1rem;
+                .owl-nav {
+                    width: auto;
+                    height: auto;
+                    border-radius: 0;
+                    left: 50%;
+                    top: 82%;
+                }
+                .number {
+                    display: none;
+                }
+            }
+        }
+        .investment {
+            flex-direction: column;
+            margin-left: 0;
+            .recent-ivestment {
+                padding: 1rem;
+                
+            }
+            .investment-sectors {
+                padding: 1rem;
+                .investment-sectors--icons {
+                    grid-column-gap: 0.5rem;
+                    column-gap: 0.5rem;
+                    .sectors--icons {
+                        span,
+                        h3 {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // responsive for opportunities 
+    .opportunities{
+        .overlay {
+            flex-direction: column;
+            .right-section {
+                width: 100%;
+                 & h2 {
+                    position: relative;
+                    font-size: 2.3125rem;
+                    margin-top: 0;
+                    transform: none;
+                    text-align: center;
+                    margin-top: 0;
+                 }
+            }
+            .left-section {
+                width: 100%;
+                .opportunities-details-hoolder {
+                    padding: 1.4rem;
+                    flex-direction: column-reverse;
+                    .map-img {
+                        img {
+                            height: 300px;
+                        }
+                    }
+                    .opportunities-details {
+                        margin-right: 0;
+                        .opportunities-content {
+                            margin-right: 0;
+                        }
+                        h3 {
+                            margin-bottom: 1.5625rem;
+                            font-size: 1.412rem;
+                        }
+                        ul {
+                            li{
+                                font-size: 1rem; 
+                            }
+                        }
+                       
+                    }
+                }
+            }        
+        }
+        
+      
+         
+    
+
+    } 
+    // responsive for latest news section
+    .latest-news {
+        .right-section {
+            .latest-news-bg {
+                .overlay {
+                    & h2 {
+                        transform: rotate(270deg) translateY(-29px);
+                        letter-spacing: 3px;
+                        font-size: 1.3125rem;
+                    }
+                }
+            }
+        }
+        .left-section {
+            .owl-content {
+                padding-left: 2rem;
+            }
+            .load-more {
+                padding: 3.125rem 3.6875rem 2.3125rem 0;
+            }
+        }
+    }
+    // Responsive For Footer
+    .footer {
+        .right-section {
+            display: none;
+        }
+        .left-section {
+            width: 100%;
+            padding: 0 1.25rem 0 1.25rem;
+            .social-icon {
+                margin:0;
+            }
+        }
+    }
+
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    html {
+        font-size: $font-size-mobile;
+    }
+    .seprated-line::before {
+        display: none;
+    }
+    // Responsive For nav bar
+    .navbar {
+        .navbar-brand {
+            padding: 1.125rem 0 1.125rem 0;
+        }
+        .navbar-collapses {
+            .contrast-section,
+            .search-section {
+                display: none;
+            }
+        }
+        .overlay-menu.open {
+            .right-section {
+                display: none;
+            }
+            .left-section {
+                width: 100%;
+                .menu-details {
+                    padding: 1.375rem 1.5rem 1.9375rem 1.125rem;
+                    ul li a {
+                        font-size: 2rem;
+                    }
+                }
+                .menu-footer {
+                    padding: 1rem 1rem 1rem 1rem;
+                }
+            }
+        }
+    }
+    //  responsive For Banner Section
+    .hero {
+        .bannar-owl {
+            .right-section {
+                display: none;
+            }
+            .left-section {
+                width: 100%;
+                padding: 1rem;
+                .owl-nav {
+                    width: auto;
+                    height: auto;
+                    border-radius: 0;
+                    left: 50%;
+                    top: 82%;
+                }
+                .number {
+                    display: none;
+                }
+            }
+        }
+        .investment {
+            flex-direction: column;
+            margin-left: 0;
+            .recent-ivestment {
+                padding: 1rem;
+                 P{
+                    font-size: 2rem;
+                 }
+            }
+            .investment-sectors {
+                padding: 1rem;
+                .investment-sectors--icons {
+                    grid-column-gap: 0.5rem;
+                    column-gap: 0.5rem;
+                    .sectors--icons {
+                        span,
+                        h3 {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // responsive for opportunities 
+    .opportunities{
+        .overlay {
+            flex-direction: column;
+            .right-section {
+                width: 100%;
+                 & h2 {
+                    position: relative;
+                    font-size: 2.3125rem;
+                    margin-top: 0;
+                    transform: none;
+                    text-align: center;
+                    margin-top: 0;
+                 }
+            }
+            .left-section {
+                width: 100%;
+                .opportunities-details-hoolder {
+                    padding: 1.4rem;
+                    flex-direction: column-reverse;
+                    .map-img {
+                        img {
+                            height: 300px;
+                        }
+                    }
+                    .opportunities-details {
+                        margin-right: 0;
+                        .opportunities-content {
+                            margin-right: 0;
+                        }
+                        h3 {
+                            margin-bottom: 1.5625rem;
+                            font-size: 1.412rem;
+                        }
+                        ul {
+                            li{
+                                font-size: 1rem; 
+                            }
+                        }
+                       
+                    }
+                }
+            }        
+        }
+        
+      
+         
+    
+
+    } 
+    // responsive for latest news section
+    .latest-news {
+        .right-section {
+            .latest-news-bg {
+                .overlay {
+                    & h2 {
+                        transform: rotate(270deg) translateY(-29px);
+                        letter-spacing: 3px;
+                        font-size: 1.3125rem;
+                    }
+                }
+            }
+        }
+        .left-section {
+            .owl-content {
+                padding-left: 2rem;
+            }
+            .load-more {
+                padding: 3.125rem 3.6875rem 2.3125rem 0;
+            }
+        }
+    }
+    // Responsive For Footer
+    .footer {
+        .right-section {
+            display: none;
+        }
+        .left-section {
+            width: 100%;
+            padding: 0 1.25rem 0 1.25rem;
+            .social-icon {
+                margin: 1rem 0 0 0;
+            }
+        }
+    }
+}
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    html {
+        font-size: $font-size-mobile;
+    }
+    .seprated-line::before {
+        display: none;
+    }
+    // Responsive For nav bar
+    .navbar {
+        .navbar-brand {
+            padding: 1.125rem 0 1.125rem 0;
+        }
+        .navbar-collapses {
+            .contrast-section,
+            .search-section {
+                display: none;
+            }
+        }
+        .overlay-menu.open {
+            .right-section {
+                display: none;
+            }
+            .left-section {
+                width: 100%;
+                .menu-details {
+                    padding: 1.375rem 1.5rem 1.9375rem 1.125rem;
+                    ul li a {
+                        font-size: 2rem;
+                    }
+                }
+                .menu-footer {
+                    padding: 1rem 1rem 1rem 1rem;
+                }
+            }
+        }
+    }
+    //  responsive For Banner Section
+    .hero {
+        .bannar-owl {
+            .right-section {
+                display: none;
+            }
+            .left-section {
+                width: 100%;
+                padding: 1rem;
+                .owl-nav {
+                    width: auto;
+                    height: auto;
+                    border-radius: 0;
+                    left: 50%;
+                    top: 82%;
+                }
+                .number {
+                    display: none;
+                }
+            }
+        }
+        .investment {
+            flex-direction: column;
+            margin-left: 0;
+            .recent-ivestment {
+                padding: 1rem;
+                P {
+                    font-size: 2rem;
+                }
+            }
+            .investment-sectors {
+                padding: 1rem;
+                .investment-sectors--icons {
+                    grid-column-gap: 0.5rem;
+                    column-gap: 0.5rem;
+                    .sectors--icons {
+                        span,
+                        h3 {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // responsive for opportunities 
+    .opportunities{
+        .overlay {
+            flex-direction: column;
+            .right-section {
+                width: 100%;
+                 & h2 {
+                    position: relative;
+                    font-size: 2.3125rem;
+                    margin-top: 0;
+                    transform: none;
+                    text-align: center;
+                    margin-top: 0;
+                 }
+            }
+            .left-section {
+                width: 100%;
+                .opportunities-details-hoolder {
+                    padding: 1.4rem;
+                    flex-direction: column-reverse;
+                    .map-img {
+                        img {
+                            height: 300px;
+                        }
+                    }
+                    .opportunities-details {
+                        margin-right: 0;
+                        .opportunities-content {
+                            margin-right: 0;
+                        }
+                        h3 {
+                            margin-bottom: 1.5625rem;
+                            font-size: 1.412rem;
+                        }
+                        ul {
+                            li{
+                                font-size: 1rem; 
+                            }
+                        }
+                       
+                    }
+                }
+            }        
+        }
+        
+      
+         
+    
+
+    } 
+    // responsive for latest news section
+    .latest-news {
+        .right-section {
+            .latest-news-bg {
+                .overlay {
+                    & h2 {
+                        transform: rotate(270deg) translateY(-29px);
+                        letter-spacing: 3px;
+                        font-size: 1.3125rem;
+                    }
+                }
+            }
+        }
+        .left-section {
+            .owl-content {
+                padding-left: 2rem;
+            }
+            .load-more {
+                padding: 3.125rem 3.6875rem 2.3125rem 0;
+            }
+        }
+    }
+    // Responsive For Footer
+    .footer {
+        .right-section {
+            display: none;
+        }
+        .left-section {
+            width: 100%;
+            padding: 0 1.25rem 0 1.25rem;
+            .social-icon {
+                margin: 1rem 0 0 0;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+

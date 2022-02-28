@@ -1,0 +1,37 @@
+<section class="latest-news">
+  <div class="right-section">
+    <div class="latest-news-bg ">
+      <div class="overlay">
+        <h2>Latest news</h2>
+      </div>
+    </div>
+  </div>
+  <div class="left-section">
+      <a routerLink="/News" class="load-more">More <span class="circle"><span
+            class="icon-arrow-right"></span></span></a>
+    <div class="owl-content">
+      <owl-carousel-o [options]="customOptions">
+        <ng-container *ngFor="let news of newsList">
+          <ng-template carouselSlide *ngIf="news.showOnHomepage == showStatus">
+            <div class="card">
+              <a [routerLink]='["/News/details", news.id]'>
+                <img [src]="news.urlToImage" class="card-img-top" [alt]="news.title" [title]="news.title">
+                <div class="card-body">
+                  <h5 class="card-title">{{news.title}}</h5>
+                  <div class="news-publish">
+                    <p class="news-publish--date">{{news.published}}</p>
+                    <div class="news-action">
+                      <i class="fa-regular fa-heart"></i>
+                      <i class="fa-solid fa-share-nodes"></i>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </ng-template>
+        </ng-container>
+      </owl-carousel-o>
+    </div>
+  </div>
+
+</section>
