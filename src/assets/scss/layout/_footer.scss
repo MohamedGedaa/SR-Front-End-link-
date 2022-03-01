@@ -6,11 +6,9 @@
     padding: 15px 0;
     color:$white-color;
     display: flex;
-    .right-section {
-        width:16%;
-    }
     .left-section {
-        width: 84%;
+        width: 100%;
+        margin-left: 16%;
         padding: 0 10.5rem 0 5.125rem;
         & ul.list-unstyled {
             & li {
