@@ -3,9 +3,9 @@
     html {
         font-size:$font-size-tablet;
     }
-    .seprated-line::before {
-        left: 14.4rem;
-    }
+    // .seprated-line::before {
+    //     left: 14.4rem;
+    // }
      // Responsive For nav bar
     .navbar {
         .navbar-brand {
@@ -30,13 +30,13 @@
         .bannar-owl {
             .left-section {
                 .owl-nav {
-                    width: 14.5rem;
-                    height: 14.5rem;
-                    left: -37%;
+                    width: 18.5rem;
+                    height: 18.5rem;
+                    right: 103%;
                 }
                 .number {
-                    left: 8%;
-                    top: 30%;
+                    left: 10%;
+                    top: 34%;
                     h1{
                         font-size: 6.372rem;
                     }
@@ -91,6 +91,10 @@
                
         }
      }
+     //responsive for news-list 
+     .news-content {
+        padding: 0 2.6875rem;
+    }
      // responsive for latest news section
     .latest-news {
         .right-section {
@@ -159,11 +163,11 @@
                 width: 100%;
                 padding: 1rem;
                 .owl-nav {
-                    width: auto;
+                    width: 12.5rem;
                     height: auto;
                     border-radius: 0;
                     left: 70%;
-                    top: 77%;
+                    top: 75%;
                 }
                 .number {
                     display: none;
@@ -266,6 +270,10 @@
             }
         }
     }
+    //responsive for news-list
+    .news-content {
+        padding: 0 1.6875rem;
+    }
     // Responsive For Footer
     .footer {
         .right-section {
@@ -329,11 +337,11 @@
                 width: 100%;
                 padding: 1rem;
                 .owl-nav {
-                    width: auto;
+                    width: 12.5rem;
                     height: auto;
                     border-radius: 0;
                     left: 50%;
-                    top: 82%;
+                    top: 80%;
                 }
                 .number {
                     display: none;
@@ -383,6 +391,7 @@
                     padding: 1.4rem;
                     flex-direction: column-reverse;
                     .map-img {
+                        margin: 0 auto;
                         img {
                             height: 300px;
                         }
@@ -434,6 +443,10 @@
             }
         }
     }
+    //responsive for news-list 
+        .news-content {
+            padding: 0 1.6875rem;
+        }
     // Responsive For Footer
     .footer {
         .right-section {
@@ -497,7 +510,7 @@
                 width: 100%;
                 padding: 1rem;
                 .owl-nav {
-                    width: auto;
+                    width: 12.5rem;
                     height: auto;
                     border-radius: 0;
                     left: 50%;
@@ -604,6 +617,10 @@
             }
         }
     }
+     //responsive for news-list 
+        .news-content {
+            padding: 0 1.6875rem;
+        }
     // Responsive For Footer
     .footer {
         .right-section {
@@ -665,7 +682,7 @@
                 width: 100%;
                 padding: 1rem;
                 .owl-nav {
-                    width: auto;
+                    width: 12.5rem;
                     height: auto;
                     border-radius: 0;
                     left: 50%;
@@ -722,7 +739,7 @@
                     flex-direction: column-reverse;
                     .map-img {
                         img {
-                            height: 300px;
+                            height: 250px;
                         }
                     }
                     .opportunities-details {
@@ -765,13 +782,17 @@
         }
         .left-section {
             .owl-content {
-                padding-left: 2rem;
+                padding-left: 1rem;
             }
             .load-more {
                 padding: 3.125rem 3.6875rem 2.3125rem 0;
             }
         }
     }
+     //responsive for news-list 
+        .news-content {
+            padding: 0 1.6875rem;
+        }
     // Responsive For Footer
     .footer {
         .right-section {
@@ -786,11 +807,3 @@
         }
     }
 }
-
-
-
-
-
-
-
-

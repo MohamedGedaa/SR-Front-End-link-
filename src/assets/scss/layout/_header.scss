@@ -29,7 +29,7 @@
                     }
                     .owl-nav{
                         position: absolute;
-                        left: -30%;
+                        right: 104%;
                         top: 15%;
                         width: 20.5rem;
                         height: 20.5rem;
@@ -123,6 +123,7 @@
         .investment-sectors {
             background-color: $golden-color;
             padding: 1.875rem;
+            background-image: url("~/assets/images/investment-bg.png");
             .investment-sectors--header{
                 display: flex;
                 align-items: center;
