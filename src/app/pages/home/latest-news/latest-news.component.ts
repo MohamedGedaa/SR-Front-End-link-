@@ -15,7 +15,7 @@ export class LatestNewsComponent implements OnInit {
     pullDrag: false,
     dots: false,
     autoWidth: true,
-    margin:30,
+    margin:20,
     navSpeed: 700,
     navText: ['<div class="circle"><span class="icon-arrow-left"></span></div>', '<div class="circle"><span class="icon-arrow-right"></i></div>'],
     responsive: {
